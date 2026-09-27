@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <meta name="description"
+        content="Website for .kich0. to express my feelings :3">
+
     <title>Website for my Love</title>
-    <meta
-        name="description"
-        content="Website for .kich0. to express my feelings :3"
-    >
 
     <style>
         * {
@@ -49,16 +49,21 @@
             left: -30px;
             width: calc(100% + 60px);
             height: calc(100% + 60px);
+
             background-image: var(--bg-url);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+
             filter: blur(8px);
             -webkit-filter: blur(8px);
+
             background-color: rgba(0, 0, 0, 0.35);
             background-blend-mode: overlay;
+
             z-index: -2;
             transform: scale(1.03);
+
             transition:
                 background-image 0.5s ease;
         }
@@ -67,11 +72,13 @@
             content: "";
             position: absolute;
             inset: 0;
+
             background:
                 linear-gradient(
                     rgba(0, 0, 0, 0.25),
                     rgba(0, 0, 0, 0.45)
                 );
+
             z-index: -1;
         }
 
@@ -79,12 +86,16 @@
             width: min(90%, 430px);
             padding: 40px;
             text-align: center;
+
             background:
                 rgba(255, 255, 255, 0.18);
+
             border:
                 1px solid rgba(255, 255, 255, 0.3);
+
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
+
             box-shadow:
                 0 10px 40px rgba(0, 0, 0, 0.35);
         }
@@ -95,12 +106,25 @@
             margin: 0 auto;
             padding: 50px 40px;
             text-align: left;
+
             background-color: #fffaf0;
-            background-image: repeating-linear-gradient(transparent 0 calc(2.2rem - 1px), #f0d5d8 0 2.2rem);
+
+            background-image:
+                repeating-linear-gradient(
+                    transparent 0 calc(2.2rem - 1px),
+                    #f0d5d8 0 2.2rem
+                );
+
             color: #2c2c2c;
-            border: 1px solid #dcdcdc;
+
+            border:
+                1px solid #dcdcdc;
+
             border-radius: 4px;
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+
+            box-shadow:
+                0 15px 50px rgba(0, 0, 0, 0.5);
+
             overflow-y: auto;
             position: relative;
         }
@@ -116,7 +140,7 @@
 
         .main-box p {
             font-size: 18px;
-            line-height: 2.2rem; 
+            line-height: 2.2rem;
             color: #333333;
             margin-bottom: 25px;
             text-shadow: none;
@@ -129,21 +153,28 @@
             width: auto;
             margin: 30px auto 20px auto;
             border-radius: 6px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+            box-shadow:
+                0 4px 12px rgba(0, 0, 0, 0.2);
+
             object-fit: contain;
-            border: 3px solid #ffffff;
+
+            border:
+                3px solid #ffffff;
         }
 
         .login-box h2 {
             margin-top: 0;
             margin-bottom: 10px;
             font-size: 30px;
+
             text-shadow:
                 0 2px 5px rgba(0, 0, 0, 0.5);
         }
 
         .login-box p {
             margin-bottom: 20px;
+
             text-shadow:
                 0 1px 3px rgba(0, 0, 0, 0.6);
         }
@@ -155,17 +186,22 @@
             font-size: 16px;
             text-align: center;
             color: #333;
+
             background:
                 rgba(255, 255, 255, 0.95);
+
             border:
                 2px solid rgba(255, 255, 255, 0.5);
+
             outline: none;
+
             transition:
                 0.2s ease;
         }
 
         #password-input:focus {
             border-color: #ff6b81;
+
             box-shadow:
                 0 0 0 4px rgba(255, 107, 129, 0.2);
         }
@@ -179,6 +215,7 @@
             border: none;
             margin-top: 15px;
             cursor: pointer;
+
             transition:
                 background-color 0.3s,
                 transform 0.2s;
@@ -198,6 +235,7 @@
             color: #ffcccc;
             margin-top: 15px;
             font-weight: bold;
+
             text-shadow:
                 0 1px 3px rgba(0, 0, 0, 0.7);
         }
@@ -209,6 +247,7 @@
             z-index: 10;
             color: white;
             font-size: 12px;
+
             text-shadow:
                 0 1px 4px rgba(0, 0, 0, 0.9);
         }
@@ -221,7 +260,8 @@
         #main-content {
             display: none;
             justify-content: center;
-            align-items: center;   
+            align-items: center;
+
             position: relative;
             width: 100%;
             height: 100vh;
@@ -239,12 +279,15 @@
             left: -30px;
             width: calc(100% + 60px);
             height: calc(100% + 60px);
+
             background-image: var(--main-bg-url);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+
             filter: blur(10px);
             transform: scale(1.05);
+
             z-index: -2;
         }
 
@@ -252,11 +295,13 @@
             content: "";
             position: fixed;
             inset: 0;
+
             background:
                 linear-gradient(
                     rgba(0, 0, 0, 0.25),
                     rgba(0, 0, 0, 0.45)
                 );
+
             z-index: -1;
         }
     </style>
@@ -265,7 +310,9 @@
 <body>
 
     <div id="lock-screen">
+
         <div class="login-box">
+
             <h2>
                 Hejkaaa!! ❤️
             </h2>
@@ -291,13 +338,18 @@
             </button>
 
             <div id="error-msg"></div>
+
         </div>
 
         <div id="photo-credit"></div>
+
     </div>
 
+
     <div id="main-content">
+
         <div class="main-box">
+
             <h2>
                 Hejkaaa!! ❤️
             </h2>
@@ -306,81 +358,137 @@
                 Stworzyłam dla ciebie tę stronę, aby wyrazić moje uczucia :3<br>
                 Jak bardzo cię kocham i jak bardzo jesteś dla mnie ważna.
             </p>
-            
+
             <p>
                 Mam nadzieję, że ci się spodoba i że poczujesz się wyjątkowo.
             </p>
-            
+
             <p>
-                Chcę, by ci przypominała o tym, że jesteś dla mnie najważniejsza i że zawsze będę cię kochać.<br>
-                Kocham cię bardzo mocno i nie mogę się doczekać, aż będziemy razem przy sobie już zawsze.
+                Chcę, by ci przypominała o tym, że jesteś dla mnie najważniejsza
+                i że zawsze będę cię kochać.<br>
+
+                Kocham cię bardzo mocno i nie mogę się doczekać,
+                aż będziemy razem przy sobie już zawsze.
             </p>
 
-            <img src="https://cdn.discordapp.com/attachments/1215766451068076274/1553495079912476862/meow.png?ex=6ab97489&is=6ab82309&hm=17f52a86c8816c1833ef9bd654a7df815affd5feeb32b0e101a832afe6f4b784&" alt="Nasz obrazek">
+            <img
+                src="https://cdn.discordapp.com/attachments/1215766451068076274/1553495079912476862/meow.png?ex=6ab97489&is=6ab82309&hm=17f52a86c8816c1833ef9bd654a7df815affd5feeb32b0e101a832afe6f4b784&"
+                alt="Nasz obrazek"
+            >
+
         </div>
 
         <div id="photo-credit"></div>
+
     </div>
 
+
     <script>
-        const UNSPLASH_ACCESS_KEY =
-            "scAZqsY4gOYbpNEZ5SbT8VVnOWKFikIBu7wFWzlVZ1k";
+
+        const PEXELS_API_KEY = "API";
+
 
         async function loadRandomBird() {
+
             const lockScreen =
                 document.getElementById("lock-screen");
+
             const credit =
                 document.getElementById("photo-credit");
 
             try {
+
+                const page =
+                    Math.floor(Math.random() * 10) + 1;
+
+
                 const apiUrl =
-                    "https://api.unsplash.com/photos/random" +
+                    "https://api.pexels.com/v1/search" +
                     "?query=bird" +
                     "&orientation=landscape" +
-                    "&content_filter=high" +
-                    "&client_id=" +
-                    encodeURIComponent(
-                        UNSPLASH_ACCESS_KEY
-                    );
+                    "&size=large" +
+                    "&per_page=80" +
+                    "&page=" +
+                    page;
+
 
                 const response =
-                    await fetch(apiUrl);
+                    await fetch(
+                        apiUrl,
+                        {
+                            headers: {
+                                Authorization:
+                                    PEXELS_API_KEY
+                            }
+                        }
+                    );
+
 
                 if (!response.ok) {
+
                     throw new Error(
-                        "Unsplash HTTP " +
+                        "Pexels HTTP " +
                         response.status
                     );
+
                 }
 
-                const photo =
+
+                const data =
                     await response.json();
 
+
+                if (
+                    !data.photos ||
+                    data.photos.length === 0
+                ) {
+
+                    throw new Error(
+                        "Brak zdjęć ptaków"
+                    );
+
+                }
+
+
+                const randomIndex =
+                    Math.floor(
+                        Math.random() *
+                        data.photos.length
+                    );
+
+
+                const photo =
+                    data.photos[randomIndex];
+
+
                 const imageUrl =
-                    photo.urls.regular;
+                    photo.src.landscape ||
+                    photo.src.large2x ||
+                    photo.src.large;
+
 
                 lockScreen.style.setProperty(
                     "--bg-url",
                     `url("${imageUrl}")`
                 );
 
-                document.getElementById("main-content").style.setProperty(
-                    "--main-bg-url",
-                    `url("${imageUrl}")`
-                );
+
+                document
+                    .getElementById("main-content")
+                    .style
+                    .setProperty(
+                        "--main-bg-url",
+                        `url("${imageUrl}")`
+                    );
+
 
                 const photographerName =
-                    photo.user.name;
+                    photo.photographer;
+
 
                 const photographerUrl =
-                    photo.user.links.html +
-                    "?utm_source=website_for_my_love" +
-                    "&utm_medium=referral";
+                    photo.photographer_url;
 
-                const unsplashUrl =
-                    "https://unsplash.com/" +
-                    "?utm_source=website_for_my_love" +
-                    "&utm_medium=referral";
 
                 credit.innerHTML = `
                     Photo by
@@ -393,41 +501,66 @@
                     </a>
                     on
                     <a
-                        href="${unsplashUrl}"
+                        href="https://www.pexels.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Unsplash
+                        Pexels
                     </a>
                 `;
+
 
                 console.log(
                     "Załadowano zdjęcie:",
                     photo
                 );
+
             }
+
             catch (error) {
+
                 console.error(
-                    "Błąd Unsplash:",
+                    "Błąd Pexels:",
                     error
                 );
 
+
+                const fallback =
+                    "linear-gradient(135deg, #667eea, #764ba2)";
+
+
                 lockScreen.style.setProperty(
                     "--bg-url",
-                    "linear-gradient(135deg, #667eea, #764ba2)"
+                    fallback
                 );
+
+
+                document
+                    .getElementById("main-content")
+                    .style
+                    .setProperty(
+                        "--main-bg-url",
+                        fallback
+                    );
+
 
                 credit.textContent =
                     "Nie udało się pobrać zdjęcia ptaka :(";
+
             }
+
         }
 
+
         async function sha256(text) {
+
             const encoder =
                 new TextEncoder();
 
+
             const data =
                 encoder.encode(text);
+
 
             const hashBuffer =
                 await crypto.subtle.digest(
@@ -435,10 +568,12 @@
                     data
                 );
 
+
             const hashArray =
                 Array.from(
                     new Uint8Array(hashBuffer)
                 );
+
 
             return hashArray
                 .map(
@@ -448,68 +583,105 @@
                             .padStart(2, "0")
                 )
                 .join("");
+
         }
 
+
         async function checkPassword() {
+
             const passwordInput =
                 document.getElementById(
                     "password-input"
                 );
+
 
             const errorMsg =
                 document.getElementById(
                     "error-msg"
                 );
 
+
             const userInput =
                 passwordInput.value;
+
 
             const correctHash =
                 "454fa0af0a67c0d0c801b0f76fa85973c7887bbe342c4014862e55770db8e8cc";
 
+
             if (!userInput) {
+
                 errorMsg.textContent =
                     "Wpisz hasło ❤️";
+
                 return;
+
             }
 
+
             try {
+
                 const userHash =
                     await sha256(userInput);
+
 
                 console.log(
                     "Hash wpisanego hasła:",
                     userHash
                 );
 
-                if (userHash === correctHash) {
-                    document.getElementById(
-                        "lock-screen"
-                    ).style.display = "none";
 
-                    document.getElementById(
-                        "main-content"
-                    ).style.display = "flex";
+                if (
+                    userHash === correctHash
+                ) {
+
+                    document
+                        .getElementById(
+                            "lock-screen"
+                        )
+                        .style.display = "none";
+
+
+                    document
+                        .getElementById(
+                            "main-content"
+                        )
+                        .style.display = "flex";
+
 
                     passwordInput.value = "";
-                } else {
+
+                }
+
+                else {
+
                     errorMsg.textContent =
                         "Błędne hasło! Nie dostaniesz się tutaj, BAKA!";
 
+
                     passwordInput.value = "";
+
                     passwordInput.focus();
+
                 }
+
             }
+
             catch (error) {
+
                 console.error(
                     "Błąd podczas sprawdzania hasła:",
                     error
                 );
 
+
                 errorMsg.textContent =
                     "Coś poszło nie tak. Spróbuj ponownie.";
+
             }
+
         }
+
 
         document
             .getElementById("login-button")
@@ -518,20 +690,29 @@
                 checkPassword
             );
 
+
         document
             .getElementById("password-input")
             .addEventListener(
                 "keydown",
                 function(event) {
+
                     if (event.key === "Enter") {
+
                         event.preventDefault();
+
                         checkPassword();
+
                     }
+
                 }
             );
 
+
         loadRandomBird();
+
     </script>
+
 </body>
 
 </html>
